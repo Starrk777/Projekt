@@ -1,0 +1,47 @@
+Nazwa: M4
+Rodzaj: Karabinek szturmowy
+Panstwo: Stany Zjednoczone
+Producent: Colts Manufacturing Company
+Kaliber: 5,56
+Magazynek: 30
+Masa: 2,52
+
+Nazwa: G36
+Rodzaj: Karabinek automatyczny
+Panstwo: Niemcy
+Producent: Heckler & Koch
+Kaliber: 5,56
+Magazynek: 30
+Masa: 3,63
+
+Nazwa: SKS
+Rodzaj: Karabin samopowtarzalny
+Panstwo: ZSRR
+Producent: Siergiej G. Simonow
+Kaliber: 7,62
+Magazynek: 10
+Masa: 3,75
+
+Nazwa: SWD
+Rodzaj: Samopowtarzalny karabin wyborowy
+Panstwo: ZSRR
+Producent: Jewgienij Dragunow
+Kaliber: 7,62
+Magazynek: 10
+Masa: 4,3
+
+Nazwa: Beretta M9
+Rodzaj: Pistolet samopowtarzalny
+Panstwo: Wlochy/Stany Zjednoczone
+Producent: Beretta USA
+Kaliber: 9
+Magazynek: 15
+Masa: 0,955
+
+Nazwa: Glock 17
+Rodzaj: Pistolet samopowtarzalny
+Panstwo: Austria
+Producent: Glock GmbH
+Kaliber: 9
+Magazynek: 17
+Masa: 0,625

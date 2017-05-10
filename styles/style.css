@@ -1,0 +1,189 @@
+body
+{
+    background-image: url('../images/sky.png');
+    background-attachment: fixed;
+    padding: 64;
+}
+#main_menu
+{
+    position: relative;
+}
+
+#main_menu>ul
+{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+}
+
+.main_menu_focused
+{
+    min-width: 128;
+    min-height: 32;
+    text-align: center;
+    padding: 0px;
+    display: inline;
+    color: #0fb;
+    border: 0;
+    background-image: url("../images/ammopas-s.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.main_menu_gray
+{
+    min-width: 128;
+    min-height: 32;
+    text-align: center;
+    padding: 0px;
+    display: inline;
+    color: #03b;
+    border: 0;
+    background-image: url("../images/ammopas.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#main_menu div
+{
+    overflow: hidden;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+#main_menu div>ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sub_menu_focused
+{
+    min-width: 256;
+    min-height: 32;
+    padding: 4px;
+    color: #00f;
+    border: 0;
+    display: block;
+
+    background-image: url("../images/plama-r.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sub_menu_gray
+{
+    min-width: 256;
+    min-height: 32;
+    padding: 4px;
+    color: #00f;
+    border: 0;
+    display: block;
+
+    background-image: url("../images/plama-b.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#main_menu a
+{
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+}
+
+
+
+
+#gallery img
+{
+    display: block;
+    border: 4px solid #aaa;
+    flow: left;
+}
+#ComparsionTable
+{
+    border: 5px solid #000;
+    margin: 0px;
+    border-spacing: 0px;
+    padding: 0px;
+}
+#ComparsionTable tr,td
+{
+    text-align: center;
+    min-height: 32;
+    border: 2px solid #999;
+    margin: 0px;
+}
+.SortDown
+{
+    height: 32;
+    background-image: url("../images/down.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+.SortUp
+{
+    height: 32;
+    background-image: url("../images/up.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+.DontSort
+{
+    height: 32;
+    background-image: url("../images/none.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+#gallery
+{
+    display: inline-block;
+    position: relative;
+    width: 768;
+    height: 258;
+    border: 2 solid 888;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.gallery_invisible
+{
+    display: none;
+}
+.gallery_visible, #gallery>div
+{
+    position: absolute;
+    display: inline-block;
+    width: 256;
+    height: 256;
+    border: 1px solid #000;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.left_g_btn
+{
+    display: inline-block;
+    height: 256;
+    width: 32;
+    background-image: url("../images/left.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.right_g_btn
+{
+    display: inline-block;
+    height: 256;
+    width: 32;
+    background-image: url("../images/right.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}

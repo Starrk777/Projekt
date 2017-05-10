@@ -1,0 +1,27 @@
+<html ng-app="site" lang="pl-PL">
+    <title>Przeglad popularniejszych broni i amunicji</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css"></link>
+    <META charset="utf-8"></META>
+    <script src="script/jquery-3.1.1.js"></script>
+    <script src="script/angular.min.js"></script>
+    <script src="script/angular-route.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body align="center" ng-controller="MainMenu as mmenu">
+    <section id="main_menu">
+        <ul><li ng-repeat="(nr,amm) in mmenu.list" ng-class="{ 'main_menu_focused': mmenu.focused({{nr}}), 'main_menu_gray': !mmenu.focused({{nr}}) }" ng-mouseenter="mmenu.focus(nr)" ng-mouseleave="mmenu.focus(-1)">
+        <h1>{{amm.title}}</h1>
+
+        <div ng-show="mmenu.focused({{nr}})">
+            <ul>
+                <li ng-repeat="(n,wpn) in amm.list" ng-class="{ 'sub_menu_focused': mmenu.sfocused({{n}}), 'sub_menu_gray': !mmenu.sfocused({{n}}) }" ng-mouseenter="mmenu.sfocus(n)" ng-mouseleave="mmenu.sfocus(-1)">
+                    <a href="#/{{wpn}}">{{wpn}}</a>
+                </li>
+            </ul>
+        </div>
+        </li></ul>
+    </section><BR><BR><BR><BR>
+    <section id="content" ng-view></section>
+</body>
